@@ -1,0 +1,138 @@
+.form__body {
+    min-width: 95vw;
+    min-height: 93vh;
+    display: grid;
+    place-items: center;
+}
+.form__container {
+
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    display: flex;
+    color:#F4EEE0;
+    flex-direction: column;
+    background-color: #4F4557;
+    width: 600px;
+    border: 1px solid #4F4557;
+    border-radius:10px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    >form {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .text_input {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px white solid;
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 10px;
+    }
+   .form-control label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+   }
+   .form-control{
+    position:relative;
+   }
+   
+    .text_input:focus{
+        outline: 0;
+        border-bottom-color: #F4EEE0;
+    }
+    .info {
+        font-weight: 500;
+        text-align: left;
+        font-size: 25px;
+        padding: 5px;
+        padding-bottom: 10px;
+        
+        
+    }
+    .header__form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        position: relative;
+        padding: 30px;
+        margin: 20px;
+    }
+    .header__icon{
+        position: absolute;
+        left:90px;
+        top:20px;
+        color:white;
+    }
+    .header__icon:hover{
+        transform: scale(1.1);
+        color:wheat;
+    }
+    .header__text{
+        position: absolute;
+        right: 100px;
+    }
+    textarea{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    .custom-file-upload{
+        padding: 6px 12px;
+        color:#393646;
+        cursor: pointer;
+        margin-top:20px;
+        margin-bottom: 20px;
+        background-color: white;
+        font-weight: 500;
+        width:50%;
+    }
+    .custom-file-upload:hover{
+        background-color:#F4EEE0;
+        color:black;
+    }
+    .custom-file-upload:focus{
+        outline:none;
+    }
+    button{
+        color:#393646;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: white;
+        cursor: pointer;
+        margin-top:20px;
+        font-weight:bold;
+        margin-bottom: 20px;
+    }
+    button:hover{
+        background-color: #F4EEE0;
+        color:black;
+    }
+    button:active{
+        transform: scale(0.97);
+    }
+}
+
+
+

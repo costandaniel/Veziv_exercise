@@ -1,0 +1,49 @@
+.home {
+    color:#F4EEE0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+.home h2 {
+    text-align: left;
+    padding-left:20px;
+}
+
+.header{
+    flex-direction: column;
+    position: relative;
+}
+.add__icon{
+    width:30px;
+    height: 30px;
+    color:white;
+}
+.add__icon:hover{
+    color:wheat;
+    transform: scale(1.1);
+}
+.add__icon__span{
+    position:absolute;
+    top:30px;
+    right:30px;
+}
+@media only screen and (max-width: 320px) {
+    .home{
+        font-size:10px;
+    }
+    .add__icon__span{
+        top:15px;
+        right:15px;
+    }
+    .add__icon{
+        width:20px;
+        height: 20px;
+        color:white;
+    }
+  }
